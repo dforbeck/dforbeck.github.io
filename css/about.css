@@ -1,4 +1,4 @@
 body
 {
-    background: rgb(194, 184, 165);
+    background: var(--hotpink);
 }
