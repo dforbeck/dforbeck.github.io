@@ -1,5 +1,9 @@
-h1
+
+header
 {
-    color: white;
-    font-family: var(--font-one);
+background: url("/assets/img/background.jpg") no-repeat top;
 }
+
+
+  
+   /* font-family: var(--font-one);*/

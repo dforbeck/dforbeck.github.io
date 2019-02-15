@@ -1,28 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Required Bootstrap meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Debbie Forbeck</title>
-    <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!--Bootstrap link v4.2.1  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- fonts website link -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Link to main css -->
     <link rel="stylesheet" href="./css/main.css">
+    <title>Debbie D. Forbeck</title>
 </head>
+
 <body>
-    <h1>Hello World!</h1>
+    <!-- Navbar -->
+    <div class="fixed-top">
+    <nav>
+    <!-- Navbar content -->
+        <ul class="nav justify-content-center" style=background-color:black>
+            <li class="nav-item">
+                <a class="nav-link active" style=color:antiquewhite href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style=color:antiquewhite href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style=color:antiquewhite href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style=color:antiquewhite href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/debbiedforbeck?trk=profile-badge"><img src="./assets/img/linkedIn.png" alt="LinkedIn" class="logos"></a>
+            </li>
+        </ul>
+    </nav>
+    </div>
 
-<!-- Navbar -->
-<!-- Header -->
-<!-- About section -->
-<!-- Projects section -->
-<!-- Contact section -->
-<!-- Footer -->
+    <!-- Landing/Header -->
+    <a name="home"></a>
+    <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Debbie D. Forbeck</h1>
+                <h2 class="lead">&Sigma; (Software Application Development + Data Science)</h2>
+            </div>
+        </div>
+    </header>
 
-<!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!-- About section -->
+    <a name="about"></a>
+    <section class="about">
+        <h1>
+            About me:
+        </h1>
+        <p>
+            I transitioned into software application development via the intensive, immersive program a Eleven Fifty
+            Academy in Fishers, Indiana after starting a PhD program in Biostatistics and realizing that my real career
+            home was in computing. As a result, I am very comfortable with mathematical applications, having taken
+            mathematical courses up to linear algebra, as well as having exposure to graduate level work in statistics
+            and computational statistics. My prior professional background is in marketing and market research (where I
+            did some data mining); I have an MBA from a top 20 program. I have worked in a marketing/market research
+            capacity in the electrical industry, consumer packaged goods industry, and high tech.
+        </p>
+        <br>
+        <p>
+            On a personal level...
+        </p>
+        <br>
+        <p>
+            I stayed home for some time to raise my beautiful daughters before continuing on with my professional
+            pursuits. I am an avid fan of jazz and blues music from all eras; having played the flute in my youth, I
+            have a deep appreciation for the wonderful breadth and variety these genres offer. I became a wine
+            afficionado after living in the beautiful San Francisco Bay Area and exploring both Napa and Sonoma
+            counties. And of course, I would be remiss if I didn't mention that I enjoy watching all sorts of cooking
+            shows. Lastly, volunteering has been a large part of my life; I am currently an active Girl Scout volunteer.
+        </p>
+    </section>
 
+    <!-- Projects section -->
+    <a name="projects"></a>
+
+    <div class="container"></div>
+    <sectiond class="projects">
+            
+        <div class="card" style="width: 18rem;">
+            <img src="./assets/img/JazzWall.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Sample webpage project using basic HTML and CSS code.</p>
+                <a href="#" class="btn btn-primary">See Project</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./assets/img/JazzWall.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">See Project</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./assets/img/JazzWall.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">See Project</a>
+            </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="./assets/img/JazzWall.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">See Project</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./assets/img/JazzWall.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">See Project</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./assets/img/JazzWall.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">See Project</a>
+            </div>
+        </div>
+
+        </section>
+        </div>
+
+    <!-- Contact section -->
+        <a name="contact"></a>
+
+        <Section class="contact">
+
+            <form action="https://formspree.io/debbieforbeck@gmail.com" method="POST">
+                <div class="control-group">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                            data-validation-required-message="Please enter your name" name="name">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                            data-validation-required-message="Please enter your email" name="_replyto">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="form-group">
+                        <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                            data-validation-required-message="Please leave a message" name="message"></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div id="success"></div>
+                    <button type="submit" class="btn btn-lg btn-black" style=color:antiquewhite>
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        Send Message
+                    </button>
+                </div>
+            </form>
+
+        <!-- Linked In badge -->
+        
+            <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="debbiedforbeck"><a class="LI-simple-link" href='https://www.linkedin.com/in/debbiedforbeck?trk=profile-badge'>Debbie D. Forbeck</a></div>
+        
+        </Section>
+        
+
+        <!-- Footer -->
+        <footer>
+            <!--Legal items, navigational items-->
+            <span style=color:antiquewhite>Copyright &copy;2017 Debbie D. Forbeck 2019.  All Rights Reserved</span>
+            <ul>
+                <li><a href="#about"  style=color:antiquewhite>About Me</a></li>
+                <li><a href="#projects" style=color:antiquewhite>Projects</a></li>
+                <li><a href="#contact" style=color:antiquewhite>Contact</a></li>
+            </ul>
+        </footer>
+
+        <!-- Required Scripts for Linkedin In and Bootstrap to work-->
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+
+    
 </body>
+
 </html>
