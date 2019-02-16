@@ -1,4 +1,9 @@
 .projects
 {
+    position: relative;
     display: inline-block;
+}
+.projects h1
+{
+    color:antiquewhite;
 }

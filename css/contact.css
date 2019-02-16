@@ -1,12 +1,9 @@
-form
+.contact h1
 {
-   width: 60%; 
+    color: antiquewhite;
 }
 
-
-.LI-profile-badge
+.contact form
 {
-    margin-left: 40%;
-
-    
+    color: antiquewhite;
 }
