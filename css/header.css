@@ -1,9 +1,14 @@
-
-header
+header#landing
 {
-background: url("/assets/img/background.jpg") no-repeat top;
+   background: url('./assets/img/background.jpg');
+   /*
+   background-image: url('./assets/img/background.jpg');
+   background-repeat: no-repeat;
+   background-position: center; 
+   position: relative;
 }
 
 
   
    /* font-family: var(--font-one);*/
+}
