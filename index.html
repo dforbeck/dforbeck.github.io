@@ -19,7 +19,7 @@
     <title>Debbie D. Forbeck</title>
 </head>
 
-<body>
+<body id="bootstrap-overrides">
     <!-- Navbar -->
 
     <nav>
@@ -54,14 +54,14 @@
 
     <!-- Landing/Header -->
     <a name="home"></a>
-    <div class="landing">
-        <div class="jumbotron jumbotron-fluid text-center" style="background-image:url('/assets/img/background.jpg');">
+    <header>
+        <div class="jumbotron jumbotron-fluid text-center">
             <div class="container">
                 <h1 class="display-4">Debbie D. Forbeck</h1>
                 <h2 class="lead">&Sigma; (Software Application Development + Data Science)</h2>
             </div>
         </div>
-    </div>
+    </header>
 
     <!-- About section -->
     <a name="about"></a>
@@ -106,8 +106,24 @@
     <div class="container">
         <div class="projects">
             <h1>
-                Projects:
+                Projects and Technical Skills:
             </h1>
+            <br>
+            <h2>
+                Technical Skills:
+            </h2>
+            <br>
+            <ul>
+                <li>Microsoft .Net</li>
+                <li>C#</li>
+                <li>HTML</li>
+                <li>SAS</li>
+                <li>R</li>
+            </ul>
+            <br>
+            <h2>
+                Projects:
+            </h2>
             <br>
             <div class="row">
 
@@ -195,99 +211,102 @@
 
             </div>
         </div>
-        <br>
-        <br>
-        <!-- Contact section -->
-        <a name="contact"></a>
+    </div>
+    <br>
+    <br>
+    <!-- Contact section -->
+    <a name="contact"></a>
 
-        <div class="container">
-            <Section class="contact">
-                <h1>
-                    Contact:
-                </h1>
-                <div class="row">
-                    <!-- Linked In badge -->
-                    <div class="col">
-                        <br>
-                        <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
-                            data-type="vertical" data-theme="dark" data-vanity="debbiedforbeck"><a
-                                class="LI-simple-link"
-                                href='https://www.linkedin.com/in/debbiedforbeck?trk=profile-badge'>Debbie D.
-                                Forbeck</a>
-                        </div>
-                    </div>
-                    <div class="col-8">
-                        <form action="https://formspree.io/debbieforbeck@gmail.com" method="POST">
-                            <div class="control-group">
-                                <div class="form-group">
-                                    <label>Name</label>
-                                    <input type="text" class="form-control" placeholder="Your Name" id="name" required
-                                        data-validation-required-message="Please enter your name" name="name">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group">
-                                    <label>Email Address</label>
-                                    <input type="email" class="form-control" placeholder="Your Email" id="email"
-                                        required data-validation-required-message="Please enter your email"
-                                        name="_replyto">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group">
-                                    <textarea class="form-control" rows="7" placeholder="Your Message" id="message"
-                                        required data-validation-required-message="Please leave a message"
-                                        name="message"></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-lg btn-black" style=color:antiquewhite>
-                                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                    Send Message
-                                </button>
-                            </div>
-                        </form>
+    <div class="container">
+        <Section class="contact">
+            <h1>
+                Contact:
+            </h1>
+            <div class="row">
+                <!-- Linked In badge -->
+                <div class="col">
+                    <br>
+                    <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
+                        data-type="vertical" data-theme="dark" data-vanity="debbiedforbeck"><a class="LI-simple-link"
+                            href='https://www.linkedin.com/in/debbiedforbeck?trk=profile-badge'>Debbie D.
+                            Forbeck</a>
                     </div>
                 </div>
-            </Section>
-        </div>
+                <div class="col-8">
+                    <form action="https://formspree.io/debbieforbeck@gmail.com" method="POST">
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                    data-validation-required-message="Please enter your name" name="name">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                    data-validation-required-message="Please enter your email" name="_replyto">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                    data-validation-required-message="Please leave a message" name="message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-lg btn-black" style=color:antiquewhite>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </Section>
+    </div>
 
 
-        <!-- Footer -->
-            <footer>
-                            <div class="container">
-                                <ul class="nav justify-content-center">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" style=color:antiquewhite href="#home">Home</a>
-                                    </li>
-                                
-                
-                
-                
-                <!--Legal items, navigational items-->
-                <span style=color:antiquewhite>Copyright &copy;2017 Debbie D. Forbeck 2019. All Rights Reserved</span>
-                <ul>
-                    <li><a href="#about" style=color:antiquewhite>About Me</a></li>
-                    <li><a href="#projects" style=color:antiquewhite>Projects</a></li>
-                    <li><a href="#contact" style=color:antiquewhite>Contact</a></li>
-                </ul>
-            </footer>
+    <!-- Footer -->
+    <!--Legal items, navigational items-->
+    <footer>
+        <div class="container-fluid">
+            <span style=color:antiquewhite>Copyright &copy;2017 Debbie D. Forbeck 2019. All Rights
+                Reserved</span>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" style=color:antiquewhite href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style=color:antiquewhite href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style=color:antiquewhite href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style=color:antiquewhite href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style=color:antiquewhite href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-        <!-- Required Scripts for Linkedin In and Bootstrap to work-->
-        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-            crossorigin="anonymous"></script>
+    </footer>
+    <!-- Required Scripts for Linkedin In and Bootstrap to work-->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 
 
 </body>

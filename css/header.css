@@ -1,14 +1,23 @@
-header#landing
+header
 {
-   background: url('./assets/img/background.jpg');
+   /* background-color: transparent; */
+    height:500px;
+}
+
+.jumbotron
+{
+   background-color: transparent;
+   height:100%;  
+}
    /*
    background-image: url('./assets/img/background.jpg');
    background-repeat: no-repeat;
    background-position: center; 
    position: relative;
 }
-
-
+*/
+#bootstrap-overrides {
+   background-image: url("/assets/img/background.jpg");
+}
   
    /* font-family: var(--font-one);*/
-}
