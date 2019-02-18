@@ -1,16 +1,21 @@
 footer 
 {
+    position: absolute;
+    left: 0px;
+    right:0px;
     height: 30px;
     font-size: 1em;
     width: 100%;
-    z-index: 1;
     text-align: center;
     padding: 4em 0 4em 0;
+    
 }
 
 footer ul
 {
-    background: blue;
+    background: lightslategray;
+    padding: 1em;
+    margin: 0px;
 }
 footer ul li 
 {
