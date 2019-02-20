@@ -1,8 +1,7 @@
 .contact
 {
     background: url("../assets/img/background.jpg") center no-repeat;
-    padding-top: 1em;
-    padding-left: 1em;
+    padding: 1em;
 }
 .contact h1
 {

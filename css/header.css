@@ -7,11 +7,22 @@ header
 .jumbotron
 {
    background: url("../assets/img/background.jpg") center no-repeat;
+   background-size: cover;
+   color: black;
    height:100%;  
    display:flex;   /*the next four lines center within jumbotron*/
    display:column; 
    justify-content:center;
    align-items:center;
-
 }
    /* Example=     font-family: var(--font-one);*/
+/* 
+.backgroundImg{
+   object-fit: contain;
+   height: 600px;
+   width: 1500px;
+} */
+
+.hello{
+   background-color: rgba(255, 255, 255, 0.5);
+}
